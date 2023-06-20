@@ -13,7 +13,7 @@ function Hello(){
 	return (
 		<div>
 			<h1>Hello there!</h1>
-			<h2>Hello there!</h2>
+			<h2>How are you?</h2>
 		</div>
 	);
 }
