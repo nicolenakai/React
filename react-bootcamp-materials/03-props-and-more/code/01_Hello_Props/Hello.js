@@ -6,6 +6,6 @@
 
 class Hello extends React.Component {
   render() {
-    return <p>Hi Everyone!</p>
+    return <p>Hi {this.props.to} from {this.props.from}</p>;
   }
 }
