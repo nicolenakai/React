@@ -1,4 +1,4 @@
-class App extends React.Component {
+/*class App extends React.Component {
 	render() {
 		return (
 			<div>
@@ -13,4 +13,19 @@ class App extends React.Component {
 	}
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));*/
+class App extends React.Component {
+	render() {
+	  return (
+		<div>
+		  <Hello 
+		  	to="Ringo" 
+			from="Paul" 
+			bangs={4}
+		  />
+		</div>
+	  )
+	}
+  }
+  
+  ReactDOM.render(<App />, document.getElementById('root'))
