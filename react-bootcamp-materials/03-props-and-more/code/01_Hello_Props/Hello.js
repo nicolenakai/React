@@ -1,5 +1,11 @@
-class Hello extends React.Component {
+/*class Hello extends React.Component {
   render() {
     return <p>Hi {this.props.to} from {this.props.from}</p>;
+  }
+}*/
+
+class Hello extends React.Component {
+  render() {
+    return <p>Hi Everyone!</p>
   }
 }
