@@ -22,7 +22,8 @@ class App extends React.Component {
 		  	to="Ringo" 
 			from="Paul" 
 			bangs={4}
-		  />
+			img="https://images.unsplash.com/photo-1547626740-02cb6aed9ef8?ix"	
+		  />	  
 		</div>
 	  )
 	}
