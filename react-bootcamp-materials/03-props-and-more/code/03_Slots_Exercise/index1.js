@@ -17,7 +17,7 @@ class App extends React.Component {
                 s1="x" 
                 s2="y" 
                 s3="z"
-            />	  
+            />
 		</div>
 	  )
 	}
